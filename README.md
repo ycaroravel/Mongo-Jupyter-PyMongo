@@ -42,6 +42,7 @@ Esquema simplificado de um cluster Mongo DB (tirado [daqui](https://docs.mongodb
 </a>
 
 </br>
+</br>
   
 **{4}** O Mongo DB é escrito em C++ e [é possível acessar o seu código fonte através da web](https://github.com/mongodb/mongo).
 
