@@ -77,8 +77,10 @@ O acesso aos dados de um banco em Mongo pode ser feito diretamente através do *
 
 </br>
 Instalação do módulo PyMongo [através do Anaconda](https://anaconda.org/anaconda/pymongo): 
+</br>
 
-     conda install -c anaconda pymongo 
+    conda install -c anaconda pymongo 
+
 </br>
 
 O PyMongo consiste em um módulo com um conjunto de comandos que nos permite acessar um servidor Mongo DB, criar, editar e fazer consultas às suas bases de dados.
@@ -97,5 +99,20 @@ O PyMongo consiste em um módulo com um conjunto de comandos que nos permite ace
 
 -----------
 # Exemplos de Utilização
+
+[IMPORTANTE] é necessário que o servidor Mongo esteja ativo. No Ubuntu, ele ser iniciado ao digitarmos o seguinte comando no terminal:
+
+    sudo service mongod start
+
+</br>
+</br>
+
+- [Carregando um Cliente Mongo DB com o PyMongo](https://github.com/ycaroravel/Mongo-Jupyter-PyMongo/blob/master/Example_Load_Client.ipynb)
+
+- [Consultas a um banco Mongo DB com o PyMongo](https://github.com/ycaroravel/Mongo-Jupyter-PyMongo/blob/master/Example_Consulting.ipynb)
+
+- [Atualizando documentos de um banco Mongo DB com o PyMongo](https://github.com/ycaroravel/Mongo-Jupyter-PyMongo/blob/master/Example_Att.ipynb)
+
+- [Analizando dados de um banco Mongo DB com o PyMongo](https://github.com/ycaroravel/Mongo-Jupyter-PyMongo/blob/master/Example_Analytics.ipynb)
 
 
