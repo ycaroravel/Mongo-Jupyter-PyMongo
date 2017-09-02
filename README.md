@@ -75,7 +75,7 @@ O Jupyter Notebook está presente na instalação padrão do [Anaconda](https://
 
 O acesso aos dados de um banco em Mongo pode ser feito diretamente através do **shell** do Mongo DB. Mas quando necessitarmos nos comunicar com o Mongo através de uma aplicação, inserindo, deletando ou consultando dados de nosso interesse, precisaremos utilizar um **driver**. Os drivers são responsáveis pela interação entre a linguagem da aplicação e o Mongo DB. Através deles nós conseguimos resgatar os dados armazenados em um banco de dados Mongo e fazê-los serem processados na nossa aplicação. Há drivers disponíveis para Mongo DB na maioria das linguagens de programação mais difundidas, dentre as quais está Python, comumente utilizada em aplicações de análise de dados em conjunto com o Jupyter Notebook. O driver de Python para Mongo é o PyMongo e ele pode ser instalado através do Anaconda.
 <p>
-Instalação do módulo PyMongo [através do Anaconda](https://anaconda.org/anaconda/pymongo)
+[Instalação do módulo PyMongo através do Anaconda: ](https://anaconda.org/anaconda/pymongo)
 
     conda install -c anaconda pymongo 
 
@@ -104,12 +104,12 @@ O PyMongo consiste em um módulo com um conjunto de comandos que nos permite ace
 </br>
 </br>
 
-### - [Carregando um Cliente Mongo DB com o PyMongo](https://github.com/ycaroravel/Mongo-Jupyter-PyMongo/blob/master/Example_Load_Client.ipynb)
+### - [Carregando um Cliente Mongo DB com o PyMongo](http://nbviewer.jupyter.org/github/ycaroravel/Mongo-Jupyter-PyMongo/blob/master/Example_Load_Client.ipynb)
 
-### - [Consultas a um banco Mongo DB com o PyMongo](https://github.com/ycaroravel/Mongo-Jupyter-PyMongo/blob/master/Example_Consulting.ipynb)
+### - [Consultas a um banco Mongo DB com o PyMongo](http://nbviewer.jupyter.org/github/ycaroravel/Mongo-Jupyter-PyMongo/blob/master/Example_Consulting.ipynb)
 
-### - [Atualizando documentos de um banco Mongo DB com o PyMongo](https://github.com/ycaroravel/Mongo-Jupyter-PyMongo/blob/master/Example_Att.ipynb)
+### - [Atualizando documentos de um banco Mongo DB com o PyMongo](http://nbviewer.jupyter.org/github/ycaroravel/Mongo-Jupyter-PyMongo/blob/master/Example_Att.ipynb)
 
-### - [Analizando dados de um banco Mongo DB com o PyMongo](https://github.com/ycaroravel/Mongo-Jupyter-PyMongo/blob/master/Example_Analytics.ipynb)
+### - [Analizando dados de um banco Mongo DB com o PyMongo](http://nbviewer.jupyter.org/github/ycaroravel/Mongo-Jupyter-PyMongo/blob/master/Example_Analytics.ipynb)
 
 
