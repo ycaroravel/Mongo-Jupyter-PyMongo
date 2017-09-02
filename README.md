@@ -4,6 +4,8 @@
 #### Interagindo com o Mongo DB usando Jupyter Notebook e PyMongo 
 
 
+-----------
+
 Este repositório é dedicado à reunião de referências, material de apoio e exemplos relacionados à interação com Mongo DB utilizando o módulo PyMongo e Jupyter Notebook. 
 
 -----------
@@ -38,13 +40,12 @@ Esquema simplificado de um cluster Mongo DB (tirado [daqui](https://docs.mongodb
 </a>
 
 </br>
-</br>
   
 **{4}** O Mongo DB é escrito em C++ e [é possível acessar o seu código fonte através da web](https://github.com/mongodb/mongo).
 
-#### Mais Informações
+#### Mais Informações:
 
-- [Mongo DB: Documentação](https://docs.mongodb.com/manual/introduction/)
+- [Mongo DB - Documentação](https://docs.mongodb.com/manual/introduction/)
 
 - [Manual de instalação do Mongo DB](https://docs.mongodb.com/manual/installation/)
 
@@ -54,10 +55,12 @@ Esquema simplificado de um cluster Mongo DB (tirado [daqui](https://docs.mongodb
 
 # Jupyter Notebook
 
+O Jupyter Notebook provê uma interface web que nos permite criar documentos (chamados **notebooks**) que agregam texto, código e gráficos. Os códigos inseridos em notebooks do Jupyter podem ser executados na própria interface, através do seu **kernel**. Os notebooks são uma maneira elegante de documentar e explicar as etapas de preparação, processamento e extração de informações de um conjunto de dados.  Assim, ao agregar códigos e seus outputs e permitir a inserção de texto e visualização de gráficos, facilitando a interação com todas as dimensões do processo de análise de dados, o Jupyter tornou-se uma solução padrão para a área.
 
+### Anaconda
+O Jupyter Notebook está presente na instalação padrão do [Anaconda](https://docs.continuum.io/), um gerenciador de pacotes em Python que provê facilidades na obtenção e instalação de novos módulos. Instalar o Anaconda é a maneira mais comum de ter acesso ao Jupyter Notebook.
 
-#### Anaconda
-
+#### Mais Informações:
 
 - [Project Jupyter](http://jupyter.org/)
 
@@ -67,14 +70,29 @@ Esquema simplificado de um cluster Mongo DB (tirado [daqui](https://docs.mongodb
 
 # PyMongo
 
- 
+O acesso aos dados de um banco em Mongo pode ser feito diretamente através do **shell** do Mongo DB. Mas quando necessitarmos nos comunicar com o Mongo através de uma aplicação, inserindo, deletando ou consultando dados de nosso interesse, precisaremos utilizar um **driver**. Os drivers são responsáveis pela interação entre a linguagem da aplicação e o Mongo DB. Através deles nós conseguimos resgatar os dados armazenados em um banco de dados Mongo e fazê-los serem processados na nossa aplicação. Há drivers disponíveis para Mongo DB na maioria das linguagens de programação mais difundidas, entre as quais está Python, comumente utilizada em aplicações de análise de dados em conjunto com o Jupyter Notebook. O driver de Python para Mongo é o PyMongo e ele pode ser instalado atraévs do Anaconda.
 
-- Instalação do módulo PyMongo através do Anaconda: https://anaconda.org/anaconda/pymongo
+</br>
+Instalação do módulo PyMongo [através do Anaconda](https://anaconda.org/anaconda/pymongo): 
 
-- Documentação: https://api.mongodb.com/python/current/
+     conda install -c anaconda pymongo 
+</br>
+
+O PyMongo consiste em um módulo com um conjunto de comandos que nos permite acessar um servidor Mongo DB, criar, editar e fazer consultas às suas bases de dados.
+
+
+
+#### Mais Informações:
+
+- [Mongo DB Drivers](https://docs.mongodb.com/ecosystem/drivers/)
+
+- [PyMongo - Documentação](https://api.mongodb.com/python/current/)
 
 -----------
 
-# Exemplos
+### **A utilização dessas ferramentas provê um ambiente  flexível, de fácil interação e alta performance para a análise de dados.**
+
+-----------
+# Exemplos de Utilização
 
 
