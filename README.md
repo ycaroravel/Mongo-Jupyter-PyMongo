@@ -28,15 +28,17 @@ Mongo DB é um banco de dados NoSQL (<i>Not only Sequence Query Language</i> ou 
 **{2}** Os documentos armazenados no Mongo DB podem ter campos distintos uns dos outros. É possível adicionar novos documentos com campos ainda não conhecidos pela coleção, o que não pode ser feito em bancos com <i> schema </i> rígido (bancos SQL).
 
 **{3}** A performance de bancos em Mongo DB está associada à qualidade do hardware e tamanho do cluster. É possível melhorar o desempenho (velocidade das consultas) do banco ou aumentar o espaço disponível para armazenamento ao adicionarmos novas máquinas ao cluster (escalabilidade horizontal). A utilização do cluster Mongo DB também nos permite configurar esquemas de redundância, dando maior confiabilidade ao bancos de dados.
- </br>
+</br>
+</br>
 Esquema simplificado de um cluster Mongo DB (tirado [daqui](https://docs.mongodb.com/v3.0/core/sharding-introduction)):
- </br>
+</br>
+</br>
 <a href="https://docs.mongodb.com/v3.0/core/sharding-introduction"> 
-<img src="https://docs.mongodb.com/v3.0/_images/sharded-collection.png" alt="Cluster Mongo DB">
+<img src="https://docs.mongodb.com/v3.0/_images/sharded-collection.png" alt="Cluster Mongo DB" style="width:128px;height:128px;">
 </a>
 
- </br>
- </br>
+</br>
+</br>
   
 **{4}** O Mongo DB é escrito em C++ e [é possível acessar o seu código fonte através da web](https://github.com/mongodb/mongo).
 
