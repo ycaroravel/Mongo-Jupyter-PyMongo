@@ -102,7 +102,6 @@ O PyMongo consiste em um módulo com um conjunto de comandos que nos permite ace
     sudo service mongod start
 
 </br>
-</br>
 
 ### - [Carregando um Cliente Mongo DB com o PyMongo](http://nbviewer.jupyter.org/github/ycaroravel/Mongo-Jupyter-PyMongo/blob/master/Example_Load_Client.ipynb)
 
